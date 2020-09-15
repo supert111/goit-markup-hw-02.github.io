@@ -214,6 +214,7 @@ line-height: 1.167;
   /* section title h2,h3 Текст размер */
 .leftside{ 
   text-align: inherit;
+  font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
