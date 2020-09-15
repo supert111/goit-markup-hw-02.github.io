@@ -20,6 +20,22 @@
 
 /* ============= Body ============= */
 
+/* logo Текст размер */
+.logo {
+font-family: Raleway, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.192;
+}
+/* logo Цвет */
+.color-web {
+  color: var(--accent-color);
+}
+.color-studio {
+  color: var(--primary-white-color);
+}
+
 .list {
   list-style: none;
 }
@@ -55,7 +71,8 @@ body {
 
 
 /* ======= Site nav ======= */
-.webstudio-nav .link {
+.webstudio-nav .link,
+.logo {
   color: var(--title-text-color);
 }
 
@@ -127,6 +144,9 @@ line-height: 1.188px;
   background-color: var(--secondary-background-color);
   
   /* button Текст размер */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
   text-align: center;
 } 
 
@@ -194,5 +214,6 @@ line-height: 1.167;
   /* section title h2,h3 Текст размер */
 .leftside{ 
   text-align: inherit;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
